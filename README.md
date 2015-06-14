@@ -1,4 +1,5 @@
-# UrlParser — Javascript Url Parser
+# UrlParser
+Javascript Url Parser
 
 ## Usage 使用方式	
 HTML
