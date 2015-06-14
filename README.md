@@ -10,11 +10,11 @@ HTML
 Javascript
 ```javascript
 var url = "http://user:pwd@www.test.com:3000/path/index.aspx?a=1&b=2#hash";
-var a = UrlParser(url);	
-console.log(a.host);    
-console.log(a.querystring);
-console.log(a.scheme);
-console.log(a.params["a"]);
+var parser = UrlParser(url);	
+console.log(parser.host);    
+console.log(parser.querystring);
+console.log(parser.scheme);
+console.log(parser.params["a"]);
 ```
 
 ## Property 屬性
